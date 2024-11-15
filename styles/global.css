@@ -1,7 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  box-sizing: border-box;  
 }
 
 :root{
@@ -23,9 +23,9 @@
 
   /* font family asap */
   --ff-asap: 'Asap', sans-serif;
-  --title-lg: 800 56px/120% var(--ff-asap);
-  --title-md: 800 24px/120% var(--ff-asap);
-  --title-sm: 800 16px/120% var(--ff-asap);
+  --title-lg-ap: 800 56px/120% var(--ff-asap);
+  --title-md-ap: 800 24px/120% var(--ff-asap);
+  --title-sm-ap: 800 16px/120% var(--ff-asap);
 
   /* font family inconsolata */
   --ff-inconsolata: 'Inconsolata', sans-serif;
@@ -33,6 +33,11 @@
 
   /* font family maven pro */
   --ff-maven-pro: 'Maven Pro', sans-serif;
-  --text-md: 16px/140% var(--ff-maven-pro);
-  --text-sm: 14px/140% var(--ff-maven-pro);
+  --text-md-mp: 16px/140% var(--ff-maven-pro);
+  --text-sm-mp: 14px/140% var(--ff-maven-pro);
+}
+
+body {
+  padding: 80px;
+  background-color: var(--gray-300);
 }

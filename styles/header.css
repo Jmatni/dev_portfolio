@@ -1,0 +1,203 @@
+.container{  
+  display: flex;
+  flex-direction: column;
+}
+
+.info {
+  width: 1366px;
+  height: 750px;
+  text-align: center;
+  background: url(../assets/images/background_intro.svg) no-repeat;
+  background-size: cover;
+  
+
+  & img {
+    margin-top: 128px;
+  }
+  
+
+  & #subtitle {
+    margin-top: 56px;
+    color: var(--gray-500);
+    font: var(--subtitle);    
+  }
+  
+  & span {
+    color: var(--red);
+  }
+
+  & #title {
+    margin-top: 8px;
+    color: var(--gray-600);   
+    font: var(--title-lg-ap);
+  }
+
+  & #description {
+    margin-top: 20px;    
+    font: var(--text-sm-mp);
+    color: var(--gray-400);
+  }
+
+  & #arrrow-down {
+    margin-top: 94px;
+    margin-bottom: 57px;
+  }
+}
+
+.cards {
+  display: flex;
+ 
+  & .git-card {  
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 114px;
+    height: 40px;
+    margin-left: 306px;
+    margin-top: 80px;
+    background-color: var(--gray-300);
+    border-radius: 999px;
+      & img {
+        height: 24px;
+        width: 24px;
+        margin-left: 16px;
+        margin-top: 8px;
+        margin-bottom: 8px;
+        margin-right: 8px;
+      }
+    & label {
+      color: var(--gray-500);
+      font: var(--text-md-mp);
+    }
+  }
+  
+  & .html-card {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 110px;
+    height: 40px;
+    margin-left: 16px;
+    margin-top: 80px;
+    background-color: var(--gray-300);
+    border-radius: 999px;
+    
+    & img {
+      height: 24px;
+      width: 24px;
+      margin-left: 16px;
+      margin-top: 8px;
+      margin-bottom: 8px;
+      margin-right: 8px;
+    }
+
+    & label {
+      color: var(--gray-500);
+      font: var(--text-md-mp);
+    }
+  }
+
+  & .css-card {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 92px;
+    height: 40px;
+    margin-left: 16px;
+    margin-top: 80px;
+    background-color: var(--gray-300);
+    border-radius: 999px;
+    
+    & img {
+      height: 24px;
+      width: 24px;
+      margin-left: 16px;
+      margin-top: 8px;
+      margin-bottom: 8px;
+      margin-right: 8px;
+    }
+
+    & label {
+      color: var(--gray-500);
+      font: var(--text-md-mp);
+    }
+  }
+
+  & .js-card {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 138px;
+    height: 40px;
+    margin-left: 16px;
+    margin-top: 80px;
+    background-color: var(--gray-300);
+    border-radius: 999px;
+    
+    & img {
+      height: 24px;
+      width: 24px;
+      margin-left: 16px;
+      margin-top: 8px;
+      margin-bottom: 8px;
+      margin-right: 8px;
+    }
+
+    & label {
+      color: var(--gray-500);
+      font: var(--text-md-mp);
+    }
+  }
+
+  & .react-card {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 106px;
+    height: 40px;
+    margin-left: 16px;
+    margin-top: 80px;
+    background-color: var(--gray-300);
+    border-radius: 999px;
+    
+    & img {
+      height: 24px;
+      width: 24px;
+      margin-left: 16px;
+      margin-top: 8px;
+      margin-bottom: 8px;
+      margin-right: 8px;
+    }
+
+    & label {
+      color: var(--gray-500);
+      font: var(--text-md-mp);
+    }
+  }
+
+  & .node-card {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 119px;
+    height: 40px;
+    margin-left: 16px;
+    margin-top: 80px;
+    background-color: var(--gray-300);
+    border-radius: 999px;
+    
+    & img {
+      height: 24px;
+      width: 24px;
+      margin-left: 16px;
+      margin-top: 8px;
+      margin-bottom: 8px;
+      margin-right: 8px;
+    }
+
+    & label {
+      color: var(--gray-500);
+      font: var(--text-md-mp);
+    }
+  }
+}

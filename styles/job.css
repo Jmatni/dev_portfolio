@@ -1,0 +1,208 @@
+.job{
+  display:flex;
+  width: 1366px;  
+  height: 917px;
+  background-color: var(--gray-100);
+
+  & h2 {  
+    color: var(--red);
+    font: var(--subtitle);
+    text-align: center;
+    margin-top: 72px;
+  }
+
+  & h3 {
+    font: var(--title-md-ap);
+    color: var(--gray-600);
+    text-align: center;
+    margin-top: 8px;
+    padding-bottom: 56px;
+  }
+  
+  & .grid-jobs {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    border: 2px solid blue;
+    height: 584px;   
+  
+    & .travelgram {
+      position: relative;
+      width: 330px;
+      height: 280px;
+      margin-left: 163px;
+      background-color: var(--gray-300);
+      border-radius: 12px;
+      
+      & img {
+        width: 306px;
+        height: 156px;
+        margin: 12px;
+        border-radius: 8px;    
+      }
+  
+      & label {
+        margin-left: 16px;
+        font: var(--title-sm-ap);
+        color: var(--gray-600);
+      }
+  
+      & p {
+        margin-left: 16px;
+        margin-top: 8px;
+        font: var(--title-sm-mp);
+        color: var(--gray-500);
+      }
+    }
+  
+    & .technews {
+      position: relative;
+      width: 330px;
+      height: 280px;      
+      margin-left: 24px;
+      background-color: var(--gray-300);
+      border-radius: 12px;
+      
+      & img {
+        width: 306px;
+        height: 156px;
+        margin: 12px;
+        border-radius: 8px;    
+      }
+  
+      & label {
+        margin-left: 16px;
+        font: var(--title-sm-ap);;
+        color: var(--gray-600);
+      }
+  
+      & p {
+        margin-left: 16px;
+        margin-top: 8px;
+        font: var(--title-sm);
+        color: var(--gray-500);
+      }
+    }
+
+    & .recipe-page {
+      position: relative;
+      width: 330px;
+      height: 280px;      
+      margin-right: 164px;
+      background-color: var(--gray-300);
+      border-radius: 12px;
+      
+      & img {
+        width: 306px;
+        height: 156px;
+        margin: 12px;
+        border-radius: 8px;    
+      }
+  
+      & label {
+        margin-left: 16px;
+        font: var(--title-sm-ap);
+        color: var(--gray-600);
+      }
+  
+      & p {
+        margin-left: 16px;
+        margin-top: 8px;
+        font: var(--title-sm);
+        color: var(--gray-500);
+      }
+    }
+
+    & .zingen {
+      position: relative;
+      width: 330px;
+      height: 280px;
+      margin-top: 24px;
+      margin-left: 163px;
+      background-color: var(--gray-300);
+      border-radius: 12px;
+      
+      & img {
+        width: 306px;
+        height: 156px;
+        margin: 12px;
+        border-radius: 8px;    
+      }
+  
+      & label {
+        margin-left: 16px;
+        font: var(--title-sm-ap);
+        color: var(--gray-600);
+      }
+  
+      & p {
+        margin-left: 16px;
+        margin-top: 8px;
+        font: var(--title-sm-mp);
+        color: var(--gray-500);
+      }
+    }
+
+    & .refund {
+      position: relative;
+      width: 330px;
+      height: 280px;
+      margin-top: 24px;
+      margin-left: 24px;
+      background-color: var(--gray-300);
+      border-radius: 12px;
+      
+      & img {
+        width: 306px;
+        height: 156px;
+        margin: 12px;
+        border-radius: 8px;    
+      }
+  
+      & label {
+        margin-left: 16px;
+        font: var(--title-sm-ap);
+        color: var(--gray-600);
+      }
+  
+      & p {
+        margin-left: 16px;
+        margin-top: 8px;
+        font: var(--title-sm-mp);
+        color: var(--gray-500);
+      }
+    }
+
+    & .turism {
+      position: relative;
+      width: 330px;
+      height: 280px;
+      margin-top: 24px;
+      margin-right: 163px;
+      background-color: var(--gray-300);
+      border-radius: 12px;
+      
+      & img {
+        width: 306px;
+        height: 156px;
+        margin: 12px;
+        border-radius: 8px;    
+      }
+  
+      & label {
+        margin-left: 16px;
+        font: var(--title-sm-ap);
+        color: var(--gray-600);
+      }
+  
+      & p {
+        margin-left: 16px;
+        margin-top: 8px;
+        font: var(--title-sm-mp);
+        color: var(--gray-500);
+      }
+    }
+  }  
+}
+
+
+  
