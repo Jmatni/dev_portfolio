@@ -1,0 +1,54 @@
+.services {
+  text-align: center;
+  width: 1366px;  
+  height: 917px;
+  background-color: var(--gray-100);
+
+  & h2{
+    color: var(--red);
+    font: var(--subtitle);
+    padding-top: 88px;
+  }
+
+  & h3 {
+    color: var(--gray-600);
+    margin-top: 8px;
+    font: var(--title-md-ap);
+    padding-bottom: 56px;
+  }
+
+  & .service-card {
+    display: flex;
+    position: absolute;
+
+    & .webapp {
+      position: relative;
+      width: 280px;
+      height: 155px;
+      margin-left: 239px;
+      border: 1px solid var(--gray-200);
+      border-radius: 12px;
+
+      & img {
+        margin-top: 20px;
+        margin-left: 20px;
+        margin-bottom: 20px;
+          
+      }
+      
+      & h4 {
+        font: var(--title-sm-ap);
+        color: var(--gray-600);
+        text-align: left;
+        margin-left: 20px;
+      }
+
+      & p {
+        color: var(--gray-500);
+        font: var(--text-sm-mp);
+        
+
+      }
+    }
+  }
+}
