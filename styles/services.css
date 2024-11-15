@@ -1,7 +1,7 @@
 .services {
   text-align: center;
   width: 1366px;  
-  height: 917px;
+  height: 480px;
   background-color: var(--gray-100);
 
   & h2{
@@ -30,8 +30,12 @@
       border-radius: 12px;
 
       & img {
+        position: relative;
+        width: 48px;
+        height: 48px;
         margin-top: 20px;
         margin-left: 20px;
+        margin-right: 212px;
         margin-bottom: 20px;
           
       }
@@ -46,6 +50,77 @@
       & p {
         color: var(--gray-500);
         font: var(--text-sm-mp);
+        margin-right: 40px;
+        
+
+      }
+    }
+
+    & .api {
+      position: relative;
+      width: 280px;
+      height: 155px;
+      margin-left: 24px;
+      border: 1px solid var(--gray-200);
+      border-radius: 12px;
+
+      & img {
+        position: relative;
+        width: 48px;
+        height: 48px;
+        margin-top: 20px;
+        margin-left: 20px;
+        margin-right: 212px;
+        margin-bottom: 20px;
+          
+      }
+      
+      & h4 {
+        font: var(--title-sm-ap);
+        color: var(--gray-600);
+        text-align: left;
+        margin-left: 20px;
+      }
+
+      & p {
+        color: var(--gray-500);
+        font: var(--text-sm-mp);
+        margin-right: 40px;
+        
+
+      }
+    }
+
+    & .devops {
+      position: relative;
+      width: 280px;
+      height: 155px;
+      margin-left: 24px;
+      border: 1px solid var(--gray-200);
+      border-radius: 12px;
+
+      & img {
+        position: relative;
+        width: 48px;
+        height: 48px;
+        margin-top: 20px;
+        margin-left: 20px;
+        margin-right: 212px;
+        margin-bottom: 20px;
+          
+      }
+      
+      & h4 {
+        font: var(--title-sm-ap);
+        color: var(--gray-600);
+        text-align: left;
+        margin-left: 20px;
+      }
+
+      & p {
+        color: var(--gray-500);
+        font: var(--text-sm-mp);
+        margin-right: 10px;
         
 
       }

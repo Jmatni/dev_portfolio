@@ -1,0 +1,151 @@
+.contact-info {
+  text-align: center;
+  width: 1366px;
+  height: 750px;
+  background-image: url(../assets/images/background_contacts.svg);
+  background-size: cover;
+  z-index: -1;
+
+  & h1 {
+    color: var(--purple);
+    font: var(--subtitle);
+    padding-top: 128px;
+    margin-bottom: 8px;
+  }
+
+  & h2 {
+    color: var(--gray-600);
+    font: var(--title-md-ap);
+    margin-bottom: 8px;
+  }
+
+  & h3 {
+    color: var(--gray-500);
+    font: var(--text-md-mp);
+  }
+
+  & .ln {
+    display: flex;
+    position: relative;
+    width: 488px;
+    height: 68px;
+    background-color: var(--gray-300);
+    margin: auto;
+    margin-top: 48px;
+
+    & img {
+      width: 28px;
+      height: 28px;
+      align-self: center;
+      margin-left: 20px;
+    }
+
+    & label {
+      color: var(--gray-500);
+      align-self: center;
+      margin-left: 12px;
+      font: var(--text-md-mp);
+    }
+
+    & #diagonal-arrow {
+      align-self: center;
+      height: 20px;
+      width: 20px;
+      margin-left: 320px;
+    }
+  }
+
+  & .instagram {
+    display: flex;
+    position: relative;
+    width: 488px;
+    height: 68px;
+    background-color: var(--gray-300);
+    margin: auto;
+    margin-top: 16px;
+
+    & img {
+      width: 28px;
+      height: 28px;
+      align-self: center;
+      margin-left: 20px;
+    }
+
+    & label {
+      color: var(--gray-500);
+      align-self: center;
+      margin-left: 12px;
+      font: var(--text-md-mp);
+    }
+
+
+    & #diagonal-arrow {
+      align-self: center;
+      height: 20px;
+      width: 20px;
+      margin-left: 300px;
+    }
+  }
+
+  & .github {
+    display: flex;
+    position: relative;
+    width: 488px;
+    height: 68px;
+    background-color: var(--gray-300);
+    margin: auto;
+    margin-top: 16px;
+
+    & img {
+      width: 28px;
+      height: 28px;
+      align-self: center;
+      margin-left: 20px;
+    }
+
+    & label {
+      color: var(--gray-500);
+      align-self: center;
+      margin-left: 12px;
+      font: var(--text-md-mp);
+    }
+
+    & #diagonal-arrow {
+      align-self: center;
+      height: 20px;
+      width: 20px;
+      margin-left: 320px;
+    }
+  }
+
+  & .mail {
+    display: flex;
+    position: relative;
+    width: 488px;
+    height: 68px;
+    background-color: var(--gray-300);
+    margin: auto;
+    margin-top: 16px;
+
+    & img {
+      width: 28px;
+      height: 28px;
+      align-self: center;
+      margin-left: 20px;
+    }
+
+    & label {
+      color: var(--gray-500);
+      align-self: center;
+      margin-left: 12px;
+      font: var(--text-md-mp);
+    }
+
+    & #diagonal-arrow {
+      align-self: center;
+      height: 20px;
+      width: 20px;
+      margin-left: 320px;
+    }
+  }
+}

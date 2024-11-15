@@ -2,7 +2,7 @@
   display:flex;
   width: 1366px;  
   height: 917px;
-  background-color: var(--gray-100);
+  background-color: var(--gray-200);
 
   & h2 {  
     color: var(--red);
